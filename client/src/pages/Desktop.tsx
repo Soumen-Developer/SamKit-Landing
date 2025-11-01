@@ -785,6 +785,119 @@ export const Desktop = (): JSX.Element => {
         alt="Vector"
         src="/figmaAssets/vector-7-1.png"
       />
+
+      <footer className="absolute top-[8300px] left-0 w-full bg-[#0c0a01] border-t border-[#025ca5]">
+        <div className="max-w-[1440px] mx-auto px-12 py-12">
+          <div className="grid grid-cols-4 gap-8 mb-8">
+            <div className="col-span-1">
+              <img
+                className="w-[165px] h-14 mb-4"
+                alt="Samkit logo"
+                src="/figmaAssets/untitled-design--10--2.png"
+              />
+              <p className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-[22.4px]">
+                Leading Oracle software implementation services provider globally.
+              </p>
+            </div>
+
+            <div className="col-span-1">
+              <h3 className="[font-family:'Inter',Helvetica] font-bold text-white text-lg mb-4 tracking-[2px]">
+                Quick Links
+              </h3>
+              <div className="flex flex-col gap-2">
+                {footerQuickLinks.map((link, index) => (
+                  <a
+                    key={index}
+                    href="#"
+                    className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-6 hover:text-[#00afe9] transition-colors"
+                  >
+                    {link}
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <div className="col-span-1">
+              <h3 className="[font-family:'Inter',Helvetica] font-bold text-white text-lg mb-4 tracking-[2px]">
+                Solutions
+              </h3>
+              <div className="flex flex-col gap-2">
+                {footerSolutions.map((solution, index) => (
+                  <a
+                    key={index}
+                    href="#"
+                    className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-6 hover:text-[#00afe9] transition-colors"
+                  >
+                    {solution}
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            <div className="col-span-1">
+              <h3 className="[font-family:'Inter',Helvetica] font-bold text-white text-lg mb-4 tracking-[2px]">
+                Contact Us
+              </h3>
+              <div className="flex flex-col gap-2">
+                <p className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-[22.4px]">
+                  124 City Road, London EC1V 2NX, UK
+                </p>
+                <a
+                  href="mailto:info@samkit.co.uk"
+                  className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-[22.4px] hover:text-[#00afe9] transition-colors"
+                >
+                  info@samkit.co.uk
+                </a>
+                <div className="flex gap-3 mt-2">
+                  <a href="#" className="hover:opacity-80 transition-opacity">
+                    <img
+                      className="w-6 h-6 object-cover"
+                      alt="Social media"
+                      src="/figmaAssets/vector-5-1.png"
+                    />
+                  </a>
+                  <a href="#" className="hover:opacity-80 transition-opacity">
+                    <img
+                      className="w-6 h-6 object-cover"
+                      alt="Social media"
+                      src="/figmaAssets/vector-6-1.png"
+                    />
+                  </a>
+                  <a href="#" className="hover:opacity-80 transition-opacity">
+                    <img
+                      className="w-6 h-6 object-cover"
+                      alt="Social media"
+                      src="/figmaAssets/vector-7-1.png"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <Separator className="bg-[#025ca5] mb-6" />
+
+          <div className="flex justify-between items-center">
+            <p className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-[22.4px]">
+              © {new Date().getFullYear()} Samkit Infosystems. All rights reserved.
+            </p>
+            <div className="flex gap-6">
+              <a
+                href="#"
+                className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-[22.4px] hover:text-[#00afe9] transition-colors"
+              >
+                Privacy Policy
+              </a>
+              <a
+                href="#"
+                className="[font-family:'Inter',Helvetica] font-light text-white text-sm tracking-[0] leading-[22.4px] hover:text-[#00afe9] transition-colors"
+              >
+                Terms of Service
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
