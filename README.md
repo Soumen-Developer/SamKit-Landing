@@ -1,4 +1,4 @@
-# 🚀 SamKit Landing Pa## 📋 Table of Contents
+# 🚀 SamKit Landing Page : 📋 Table of Contents
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
