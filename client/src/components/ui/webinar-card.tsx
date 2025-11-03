@@ -32,7 +32,7 @@ export const WebinarCard = ({
   return (
     <div
       className={cn(
-        "flex-shrink-0 w-[300px] lg:w-auto flex flex-col rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 snap-start",
+        "flex-shrink-0 w-full flex flex-col rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-2 snap-start",
         "backdrop-blur-md bg-white/10 dark:bg-gray-800/10",
         "border border-white/20 dark:border-gray-700/20",
         "shadow-[0_8px_32px_0_rgba(31,38,135,0.37)]",
@@ -42,7 +42,7 @@ export const WebinarCard = ({
       data-testid={`webinar-${index}`}
     >
       <div className={cn(
-        "relative h-52 overflow-hidden group",
+        "relative h-48 sm:h-52 overflow-hidden group",
         imageClassName
       )}>
         <img
@@ -59,14 +59,14 @@ export const WebinarCard = ({
         </div>
       </div>
       <div className={cn(
-        "p-6 space-y-4 flex-1 flex flex-col",
+        "p-4 sm:p-6 space-y-3 sm:space-y-4 flex-1 flex flex-col",
         "bg-gradient-to-b from-white/5 to-white/10 dark:from-gray-800/5 dark:to-gray-800/10",
         contentClassName
       )}>
-        <h3 className="font-bold text-gray-900 dark:text-white text-xl leading-tight flex-1">
+        <h3 className="font-bold text-gray-900 dark:text-white text-lg sm:text-xl leading-tight flex-1">
           {title}
         </h3>
-        <p className="text-gray-600 dark:text-gray-400 text-sm font-medium">
+        <p className="text-gray-600 dark:text-gray-400 text-xs sm:text-sm font-medium">
           {date}
         </p>
         <Button

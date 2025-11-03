@@ -1,17 +1,22 @@
 # 🚀 SamKit Landing Pa## 📋 Table of Contents
 
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Development](#development)
-- [Production](#production)
-- [Environment Configuration](#environment-configuration)
-- [API Documentation](#api-documentation)
-- [Security Features](#security-features)
-- [Contributing](#contributing)
-- [Server Management](#server-management)
-- [License](#license)
-- [Support](#support)t Logo](client/public/figmaAssets/logos/cropped-Untitled-design-4-32x32.png)
+- [🚀 SamKit Landing Pa## 📋 Table of Contents](#-samkit-landing-pa--table-of-contents)
+  - [📋 Table of ContentsLanding Page](#-table-of-contentslanding-page)
+  - [� Table of Contents](#-table-of-contents)
+  - [✨ Features](#-features)
+  - [🛠 Prerequisites](#-prerequisites)
+  - [📥 Installation](#-installation)
+  - [💻 Development](#-development)
+  - [🏗 Production](#-production)
+  - [⚙️ Environment Configuration](#️-environment-configuration)
+  - [🌐 Network Access](#-network-access)
+  - [� API Documentation](#-api-documentation)
+  - [🔒 Security Features](#-security-features)
+  - [� Contributing](#-contributing)
+  - [🛑 Server Management](#-server-management)
+  - [📄 License](#-license)
+  - [🤝 Support](#-support)
+- [SamKit-Landing](#samkit-landing)
 
 A modern, full-stack web application featuring an Express backend and React frontend, designed to showcase SamKit's services and solutions.
 
@@ -33,15 +38,23 @@ A modern, full-stack web application featuring an Express backend and React fron
 
 ## � Table of Contents
 
-- [Features](#-features)
-- [Prerequisites](#-prerequisites)
-- [Installation](#-installation)
-- [Development](#-development)
-- [Production](#-production)
-- [Environment Configuration](#-environment-configuration)
-- [API Documentation](#-api-documentation)
-- [Security](#-security)
-- [Contributing](#-contributing)
+- [🚀 SamKit Landing Pa## 📋 Table of Contents](#-samkit-landing-pa--table-of-contents)
+  - [📋 Table of ContentsLanding Page](#-table-of-contentslanding-page)
+  - [� Table of Contents](#-table-of-contents)
+  - [✨ Features](#-features)
+  - [🛠 Prerequisites](#-prerequisites)
+  - [📥 Installation](#-installation)
+  - [💻 Development](#-development)
+  - [🏗 Production](#-production)
+  - [⚙️ Environment Configuration](#️-environment-configuration)
+  - [🌐 Network Access](#-network-access)
+  - [� API Documentation](#-api-documentation)
+  - [🔒 Security Features](#-security-features)
+  - [� Contributing](#-contributing)
+  - [🛑 Server Management](#-server-management)
+  - [📄 License](#-license)
+  - [🤝 Support](#-support)
+- [SamKit-Landing](#samkit-landing)
 
 ## ✨ Features
 
