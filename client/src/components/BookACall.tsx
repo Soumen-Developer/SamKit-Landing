@@ -16,10 +16,10 @@ const BookACall = () => {
     checkMobile();
     window.addEventListener('resize', checkMobile);
     
-    // Trigger mount animation
+    // Trigger mount animation with longer delay
     setTimeout(() => {
       setIsMounted(true);
-    }, 100);
+    }, 1100); // Increased delay to 1.5 seconds
     
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
